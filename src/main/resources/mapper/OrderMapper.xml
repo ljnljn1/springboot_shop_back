@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ljn.dao.OrderMapper">
+  <resultMap id="BaseResultMap" type="com.ljn.po.Order">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="o_id" jdbcType="INTEGER" property="oId" />
+    <result column="total" jdbcType="DOUBLE" property="total" />
+    <result column="order_time" jdbcType="TIMESTAMP" property="orderTime" />
+    <result column="state" jdbcType="INTEGER" property="state" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="phone" jdbcType="VARCHAR" property="phone" />
+    <result column="addr" jdbcType="VARCHAR" property="addr" />
+    <result column="u_id" jdbcType="INTEGER" property="uId" />
+  </resultMap>
+</mapper>
