@@ -29,6 +29,7 @@ public class UserController {
     @RequestMapping("/getAllUser")
     public List<User> getAllUser(){
       System.out.println("hello");
+        System.out.println("新的分支");
        return userSercvice.getAllUser();
     }
     @RequestMapping("/userList")
